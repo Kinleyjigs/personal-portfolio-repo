@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website - HTML, CSS & Vanilla Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  </head>
+
+  <body>
+
+    <div class="scrollToTop-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+
+    <header>
+      <a href="#" class="brand">YONTEN</a>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <a href="#main">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#Projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <section class="main" id="main">
+      <div class="content">
+        <h2>Hello, I'm<br><span>yonten kinley tenzin</span></h2>
+        <div class="animated-text">
+          <h3>Web Designer</h3>
+          <h3>Web Developer</h3>
+          <h3>Frontend Developer</h3>
+        </div>
+
+        <div class="btn-group">
+          <a href="resume.pdf" class="btn active">Download CV</a>
+        </div>
+
+        <div class="media-icons">
+          <a href="https://www.facebook.com/yontenkinley.tenzin"><i class="fab fa-facebook-f"></i></a>
+
+          <a href="https://github.com/Kinleyjigs"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="title reveal">
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="content">
+        <div class="column col-left reveal">
+          <div class="img-card">
+            <img src="images/img1.jpg" alt="">
+          </div>
+        </div>
+        <div class="column col-right reveal">
+          <h2>Hey There! I'm Yonten Kinley Tenzin</h2>
+          <p>A software engineering student at the College of Science and Technology (CST). I'm passionate about website
+            design and development, with a keen interest in frontend development.</p>
+          <br> <!-- Adds space between paragraphs -->
+          <p>Currently, I focus on creating engaging and user-friendly web applications. I’m well-versed in using React
+            components and working with RESTful APIs to build dynamic, interactive websites.</p>
+          <br> <!-- Adds space between paragraphs -->
+          <p class="paragraph-text">In addition to frontend development, I’ve explored basic cybersecurity concepts like
+            bug bounty and penetration testing, and I have experience with Python. I've worked on various projects,
+            including game development with Pygame, task automation, and diving into machine learning basics.</p>
+
+        </div>
+
+      </div>
+
+      <!-- skills  -->
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="title reveal">
+        <h2 class="section-title">My Technical Skills</h2>
+      </div>
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+            <img src="images/html.png" height="100" width="100" alt="">
+          </div>
+          <div class="slide">
+            <img src="Images/css.png" height="100" width="100" alt="">
+          </div>
+          <div class="slide">
+            <img src="Images/react.png" height="100" width="100" alt="">
+          </div>
+          <div class="slide">
+            <img src="Images/python.png" height="100" width="100" alt="">
+          </div>
+          <div class="slide">
+            <img src="Images/tailwindcss.png" height="100" width="100" alt="">
+          </div>
+          <div class="slide">
+            <img src="Images/js.png" height="100" width="100" alt="">
+          </div>
+          <div class="slide">
+            <img src="Images/nodejs.png" height="100" width="100" alt="">
+          </div>
+          <div class="slide">
+            <img src="Images/postgres.png" height="100" width="100" alt="">
+          </div>
+          <div class="slide">
+            <img src="Images/postman.png" height="100" width="100" alt="">
+          </div>
+          <div class="slide">
+            <img src="Images/mongodb.png" height="100" width="100" alt="">
+          </div>
+          <div class="slide">
+            <img src="Images/restapi.png" height="100" width="100" alt="">
+          </div>
+      </div>
+
+    </section>
+
+    <!-- portfolio -->
+
+    <section class="Projects" id="Projects">
+  <div class="title reveal">
+      <h1 class="section-title">MY PROJECTS</h1>
+      <div class="work-list">
+          <div class="work">
+              <img src="Images/pokedex.jpg">
+              <div class="layer">
+                  <h3>Pokedex</h3>
+                  <p>Pokedex web application using Vanilla js</p>
+                  <a href="https://github.com/Kinleyjigs/02230313_WEB101_PA1.git"><i class="fa-solid fa-link"></i></a>
+              </div>
+          </div>
+          <div class="work">
+              <img src="Images/tellonym.jpg">
+              <div class="layer">
+                  <h3>tellonym</h3>
+                  <p>Full stack web development using MERN(Mongodb, Express, React and Node.js)</p>
+                  <a href="https://github.com/C-gyeltshen/FrontEnd_tellonym.git"><i class="fa-solid fa-link"></i></a>
+              </div>
+          </div>
+          <div class="work">
+              <img src="Images/task auto.jpg">
+              <div class="layer">
+                  <h3>Task Automation</h3>
+                  <p>task automation of fetching top headline of BBC news</p>
+                  <a href="https://github.com/Kinleyjigs/csf101_assignment.git"><i class="fa-solid fa-link"></i></a>
+              </div>
+          </div>
+
+          <div class="work">
+            <img src="Images/pygame.jpg">
+            <div class="layer">
+                <h3>Pygame</h3>
+                <p>2D tetris game using python.</p>
+                <a href="https://github.com/Kinleyjigs/csf101_CAP2_pygame-.git"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+
+        <div class="work">
+          <img src="Images/mlbb.jpg">
+          <div class="layer">
+              <h3>Mobile Legend Bang Bang</h3>
+              <p>build a database that can hold the mlbb data. </p>
+
+          </div>
+      </div>
+      </div>
+  </div>
+</div>
+    </section>
+
+
+
+    
+
+
+
+    <section class="contact" id="contact">
+      <div class="title reveal">
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info">
+              <h3>Address</h3>
+              <span>cst, Phuentsholing, Bhutan</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="info">
+              <h3>Phone</h3>
+              <span>+975 17 89 62 06</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info">
+              <h3>Email Address</h3>
+              <a href="mailto:02230313.cst@rub.edu.bt">02230313.cst@rub.edu.bt</a>
+            </div>
+          </div </div>
+        </div>
+        <div class="row">
+
+
+    </section>
+
+    <div class="footer-container">
+      <div class="media-icons">
+        <a href="https://www.facebook.com/yontenkinley.tenzin"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://github.com/Kinleyjigs"><i class="fab fa-github"></i></a>
+        <span class="footer-title">yonten kinley tenzin</span>
+      </div>  
+    </div>
+    
+
+    <script src="script.js" charset="utf-8"></script>
+
+  </body>
+
+</html>
